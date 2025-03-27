@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <title>About - DTB Technologies</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="p-4 bg-gray-900 text-white sticky top-0 flex justify-between items-center z-10">
+        <div class="flex items-center"><img src="assets/logo.png" alt="DTB Logo" class="h-10 mr-2"><h1 class="text-2xl font-bold">DTB Technologies</h1></div>
+        <nav class="flex gap-6"><a href="index.html">Home</a><a href="tech-lab.html">Tech Lab</a><a href="services.html">Services</a><a href="about.html">About</a><a href="contact.html">Contact</a></nav>
+    </header>
+    <main>
+        <section class="p-10 text-center bg-slate-900">
+            <h2 class="text-5xl font-bold text-blue-400 animate-glow">About DTB Technologies</h2>
+            <p class="text-xl mt-4">We’re a team of IT alchemists turning tech chaos into gold. Inspired by innovation, we blend expertise with creativity to solve your toughest challenges.</p>
+            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="p-6 bg-gray-800 rounded-lg">
+                    <h3 class="text-2xl text-blue-400">Our Mission</h3>
+                    <p>Empower businesses with seamless, secure, and futuristic IT solutions.</p>
+                </div>
+                <div class="p-6 bg-gray-800 rounded-lg">
+                    <h3 class="text-2xl text-blue-400">Our Vision</h3>
+                    <p>To be the go-to tech alchemist for a connected world.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <a href="help.html" id="contact-orb" class="fixed bottom-10 right-10 w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center cursor-pointer z-20" data-tooltip="Learn more about us!">
+        <i class="fas fa-headset text-2xl text-white"></i>
+    </a>
+    <script src="script.js"></script>
+    </body>
+    <script src="script.js"></script>
+    <div id="easter-egg" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 hidden">
+        <div class="text-center">
+            <h3 class="text-5xl font-bold text-blue-400 animate-glitch">Tech Alchemist Unleashed!</h3>
+            <p class="text-2xl text-white mt-4">You’ve found the secret—DTB’s cosmic core!</p>
+            <button id="close-egg" class="mt-6 p-3 bg-blue-500 text-white rounded-full hover:bg-blue-600">Back to Reality</button>
+        </div>
+    </div>
+</body>
+</html>

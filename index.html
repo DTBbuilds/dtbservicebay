@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <title>DTB Technologies - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="p-4 bg-gray-900 text-white sticky top-0 flex justify-between items-center z-20 animate-float">
+        <div class="flex items-center">
+            <img src="assets/logo.png" alt="DTB Logo" class="h-10 mr-2 cursor-pointer" id="easter-egg">
+            <h1 class="text-2xl font-bold">DTB Technologies</h1>
+        </div>
+        <nav class="flex gap-6">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="tech-lab.html" class="nav-link">Tech Lab</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero with Video -->
+        <section class="relative min-h-[60vh] flex items-center justify-center text-center overflow-hidden">
+            <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover z-0 animate-video-glitch">
+                <source src="assets/tech-video.mp4" type="video/mp4">
+            </video>
+            <div class="absolute inset-0 bg-black opacity-60 z-10 animate-flicker"></div>
+            <div id="particles-js" class="absolute inset-0 z-15"></div>
+            <div class="relative z-20">
+                <h2 class="text-7xl font-bold text-blue-400 animate-glitch">DTB Technologies</h2>                <p class="text-3xl mt-4 text-white animate-text-buzz">Your Cosmic IT Alchemists</p>
+                <a href="services.html" class="mt-8 inline-block p-4 bg-blue-500 text-white rounded-full hover:bg-blue-600 animate-pulse-cta">Get Started</a>
+            </div>
+        </section>
+
+        <!-- Stats -->
+        <section class="p-10 bg-slate-900 text-center">
+            <h3 class="text-4xl font-bold text-blue-400 mb-8 animate-spin-slow">Our Impact</h3>
+            <div class="grid grid-cols-3 gap-6">
+            <div class="p-6 animate-bounce">
+                    <p class="text-5xl text-white counter" data-target="500">0</p>
+                    <p class="text-xl mt-2">Issues Resolved</p>
+                </div>
+                <div class="p-6 animate-bounce">
+                    <p class="text-5xl text-white counter" data-target="50">0</p>
+                    <p class="text-xl mt-2">Clients Served</p>
+                </div>
+                <div class="p-6 animate-bounce">
+                    <p class="text-5xl text-white counter" data-target="10">0</p>
+                    <p class="text-xl mt-2">Years of Expertise</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Teaser Carousel -->
+        <section class="p-10 bg-gray-800">
+            <h3 class="text-4xl font-bold text-blue-400 text-center mb-8 animate-wobble">What We Do</h3>
+            <div id="carousel" class="relative overflow-hidden">
+                <div class="flex transition-transform duration-500 ease-in-out">
+                    <div class="min-w-full p-6 bg-slate-900 rounded-lg text-center animate-slide-in">
+                        <i class="fas fa-tools text-4xl text-blue-400 mb-4"></i>
+                        <h4 class="text-2xl text-white">Technical Support</h4>
+                        <p class="mt-2">24/7 help desk and troubleshooting.</p>
+                    </div>
+                    <div class="min-w-full p-6 bg-slate-900 rounded-lg text-center animate-slide-in">
+                        <i class="fas fa-cloud text-4xl text-blue-400 mb-4"></i>
+                        <h4 class="text-2xl text-white">Cloud Computing</h4>
+                        <p class="mt-2">Migration and serverless solutions.</p>
+                    </div>
+                    <div class="min-w-full p-6 bg-slate-900 rounded-lg text-center animate-slide-in">
+                        <i class="fas fa-shield-alt text-4xl text-blue-400 mb-4"></i>
+                        <h4 class="text-2xl text-white">Cybersecurity</h4>
+                        <p class="mt-2">Penetration testing and training.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="p-6 bg-gray-900 text-white text-center border-t-4 border-blue-400 animate-neon-footer relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-blue-500/20 to-transparent animate-gradient-shift"></div>
+        <p class="text-xl relative z-10">© 2025 DTB Technologies - Powered by Cosmic Innovation</p>
+        <div class="mt-4 flex justify-center gap-6 relative z-10 flex-wrap">
+            <a href="https://wa.me/+254729983567" target="_blank" class="p-3 bg-green-500 text-white rounded-full hover:bg-green-600 hover:scale-110 transition-all" title="WhatsApp Us (+254-729983567)"><i class="fab fa-whatsapp text-xl"></i></a>
+            <a href="tel:+254729983567" target="_blank" class="p-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 hover:scale-110 transition-all" title="Call Us (+254-729983567)"><i class="fas fa-phone text-xl"></i></a>
+            <a href="tel:+254104160502" target="_blank" class="p-3 bg-blue-500 text-white rounded-full hover:bg-blue-600 hover:scale-110 transition-all" title="Call Us (+254-104160502)"><i class="fas fa-phone text-xl"></i></a>
+            <a href="https://www.tiktok.com/@yourhandle" target="_blank" class="p-3 bg-black text-white rounded-full hover:bg-gray-800 hover:scale-110 transition-all" title="Follow on TikTok"><i class="fab fa-tiktok text-xl"></i></a>
+            <a href="https://www.instagram.com/yourhandle" target="_blank" class="p-3 bg-pink-500 text-white rounded-full hover:bg-pink-600 hover:scale-110 transition-all" title="Follow on Instagram"><i class="fab fa-instagram text-xl"></i></a>
+            <a href="https://t.me/yourhandle" target="_blank" class="p-3 bg-teal-500 text-white rounded-full hover:bg-teal-600 hover:scale-110 transition-all" title="Join on Telegram"><i class="fab fa-telegram text-xl"></i></a>
+            <a href="https://github.com/DTBbuilds" target="_blank" class="p-3 bg-gray-700 text-white rounded-full hover:bg-gray-600 hover:scale-110 transition-all" title="Check on GitHub"><i class="fab fa-github text-xl"></i></a>
+        </div>
+        <div class="mt-4 text-sm relative z-10">Mobile Services Available Across Nairobi</div>
+    </footer>
+
+    <!-- Contact Orb -->
+    <a href="help.html" id="contact-orb" class="fixed bottom-10 right-10 w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center cursor-pointer z-20" data-tooltip="Need help? Chat now!">
+        <i class="fas fa-headset text-2xl text-white"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS('particles-js', {
+            particles: { number: { value: 100 }, color: { value: '#60a5fa' }, size: { value: 4 }, move: { speed: 3 } },
+            interactivity: { events: { onhover: { enable: true, mode: 'repulse' }, onclick: { enable: true, mode: 'push' } } }
+        });
+    </script>
+    <script src="script.js"></script>
+    <div id="easter-egg" class="fixed inset-0 bg-black bg-opacity-80 flex items-center justify-center z-50 hidden">
+        <div class="text-center">
+            <h3 class="text-5xl font-bold text-blue-400 animate-glitch">Tech Alchemist Unleashed!</h3>
+            <p class="text-2xl text-white mt-4">You’ve found the secret—DTB’s cosmic core!</p>
+            <button id="close-egg" class="mt-6 p-3 bg-blue-500 text-white rounded-full hover:bg-blue-600">Back to Reality</button>
+        </div>
+    </div>
+</body>
+</html>
