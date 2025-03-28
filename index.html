@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
+    <meta name="description" content="DTB Technologies: Nairobi's Tech Alchemist. IT support, web development, server solutions—24/7. Call +254-729983567.">
+    <meta name="keywords" content="Nairobi IT support, web development Kenya, tech alchemist Nairobi, 24/7 IT help Kenya, server solutions Nairobi">
     <meta charset="UTF-8">
     <title>DTB Technologies - Home</title>
     <script src="https://cdn.tailwindcss.com"></script>
@@ -14,6 +16,7 @@
             <h1 class="text-2xl font-bold">DTB Technologies</h1>
         </div>
         <nav class="flex gap-6">
+            <a href="products.html" class="text-blue-400 mx-2">Products</a>
             <a href="index.html" class="nav-link">Home</a>
             <a href="tech-lab.html" class="nav-link">Tech Lab</a>
             <a href="services.html" class="nav-link">Services</a>
@@ -24,15 +27,32 @@
     <main>
         <!-- Hero with Video -->
         <section class="relative min-h-[60vh] flex items-center justify-center text-center overflow-hidden">
-            <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover z-0 animate-video-glitch">
+            <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover z-0">
                 <source src="assets/tech-video.mp4" type="video/mp4">
             </video>
-            <div class="absolute inset-0 bg-black opacity-60 z-10 animate-flicker"></div>
-            <div id="particles-js" class="absolute inset-0 z-15"></div>
-            <div class="relative z-20">
-                <h2 class="text-7xl font-bold text-blue-400 animate-glitch">DTB Technologies</h2>                <p class="text-3xl mt-4 text-white animate-text-buzz">Your Cosmic IT Alchemists</p>
-                <a href="services.html" class="mt-8 inline-block p-4 bg-blue-500 text-white rounded-full hover:bg-blue-600 animate-pulse-cta">Get Started</a>
+            <div class="relative z-10">
+                <h2 class="text-7xl font-bold text-blue-400 animate-glitch">Nairobi’s Tech Alchemist</h2>
+                <p class="text-xl mt-4 text-white relative z-10">Shop our <a href="products.html" class="text-blue-400 hover:underline">IT Support Plans</a> and more—Nairobi’s Tech Alchemist awaits!</p>
+                <p class="text-xl mt-4 text-white">24/7 IT support, web development, and server solutions in Nairobi.</p>
             </div>
+            <!-- Shop Now Button and Card -->
+<section class="p-10 text-center">
+    <!-- Glowing Button -->
+    <a href="products.html" class="inline-block p-4 bg-blue-500 text-white rounded-full hover:bg-blue-600 transition-all animate-pulse-cta text-xl font-bold mb-8">
+        Shop Now - Discover DTB’s Tech Magic!
+    </a>
+    <!-- Neon Card -->
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto bg-gray-800 p-6 rounded-lg animate-neon">
+        <div class="text-left">
+            <h3 class="text-3xl text-blue-400 mb-4 animate-glitch">Explore Our Tech Solutions</h3>
+            <p class="text-white">From 24/7 IT support to custom web development, DTB Technologies has everything you need to solve your tech woes in Nairobi.</p>
+            <a href="products.html" class="inline-block mt-4 p-2 bg-blue-500 text-white rounded hover:bg-blue-600">Browse Products</a>
+        </div>
+        <div>
+            <img src="assets/tech-solutions.png" alt="DTB Tech Solutions - Nairobi IT Support" class="h-40 mx-auto rounded-lg">
+        </div>
+    </div>
+</section>
         </section>
 
         <!-- Stats -->
@@ -114,5 +134,9 @@
             <button id="close-egg" class="mt-6 p-3 bg-blue-500 text-white rounded-full hover:bg-blue-600">Back to Reality</button>
         </div>
     </div>
+    <!-- Sticky Shop Now Button -->
+<a href="products.html" class="fixed bottom-4 right-4 p-4 bg-blue-500 text-white rounded-full hover:bg-blue-600 animate-pulse-cta z-50">
+    <i class="fas fa-shopping-cart mr-2"></i> Shop Now
+</a>
 </body>
 </html>

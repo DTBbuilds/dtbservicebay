@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="DTB Technologies Cart: Checkout IT support, web dev, and more in Nairobi.">
+    <meta name="keywords" content="IT support Nairobi, web development Kenya, server solutions Nairobi">
+    <title>DTB Technologies - Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-900 text-white">
+    <header class="p-4 bg-black flex justify-between items-center">
+        <div class="flex items-center">
+            <img src="assets/logo.png" alt="DTB Technologies Logo - Nairobi IT Support" class="h-10 mr-2">
+            <h1 class="text-2xl font-bold text-blue-400">DTB Technologies</h1>
+        </div>
+        <nav>
+            <a href="index.html" class="text-blue-400 mx-2">Home</a>
+            <a href="products.html" class="text-blue-400 mx-2">Products</a>
+            <a href="contact.html" class="text-blue-400 mx-2">Contact</a>
+        </nav>
+    </header>
+    <section class="p-10">
+        <h2 class="text-5xl font-bold text-blue-400 text-center animate-glitch">Your Cart</h2>
+        <div id="cart-items" class="mt-8"></div>
+        <p id="cart-total" class="text-xl mt-4 text-center">Total: KSh 0</p>
+        <div class="text-center mt-8">
+            <button id="checkout-btn" class="p-4 bg-blue-500 text-white rounded-full hover:bg-blue-600">Checkout</button>
+        </div>
+    </section>
+    <footer class="p-4 bg-black text-center">
+        <p>© 2025 DTB Technologies. All rights reserved.</p>
+    </footer>
+    <script src="cart.js"></script>
+</body>
+</html>
